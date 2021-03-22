@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+.title {
+    color: white;
+    font-family: 'Playfair Display', serif;
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg);
+    font-size: 7vw;
+    letter-spacing: 4px;
+    display: block;
+    position: fixed;
+    top: 0;
+}
+
+.container {
+    background-image: url(http://www.nasa.gov/sites/default/files/thumbnails/image/stsci-h-p1917b-q-5198x4801.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.header-col {
+    flex: 1;
+}
+
+.body-col {
+    flex: 11;
+}
+
+.body-col p {
+    color: white;
+    padding: 24px;
+    text-shadow: 0 0 25px rgb(0 0 0);
+    letter-spacing: 2px;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 200px;
+    height: auto;
+    background-color: white;
+    margin: 24px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+.card h4 {
+    color: black;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+}
+
+.card-container {
+    padding: 16px;
+}
+
+.card-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: absolute;
+    bottom: 0;
+}
+
+.coming-soon {
+    object-fit: cover;
+    opacity: 0.4;
+}
+
+.item {
+    max-height: 200px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+
+.actions {
+    display: flex;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.action-item {
+    flex: 1;
+}
+
+.action-item:hover {
+    transform: scale(1.5);
+}
+
+.icon {
+    color: black;
+}
+
+.sfle-link {
+    color: white
+}
